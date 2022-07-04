@@ -1,20 +1,16 @@
-# projeto_burger
+# app
 
 ## Project setup
 ```
 npm install
 ```
 
-### Para compilar
+### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-### Para "rodar" o backend feito no arquivo db.json
-...
-npm run backend
 
-
-### Compilar e minimizar para produção
+### Compiles and minifies for production
 ```
 npm run build
 ```
