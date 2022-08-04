@@ -1,4 +1,4 @@
-# nuxt
+# dashboard_nuxt
 
 ## Build Setup
 
