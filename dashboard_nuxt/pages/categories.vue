@@ -79,7 +79,7 @@ export default {
         AppFormLabel,
     },
 
-    async asyncData({store}) {
+    async asyncData({ store }) {
         return{
             categories: await store.dispatch('categories/getCategories')
             .then(response => response.map(o => ({ ...o, is_updating: false})))
